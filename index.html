@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title id="title">----Variable-Here----</title>
+  </head>
+  <body>
+    <div class="centerer">
+      <div class="main_box">
+        <div class="img_side">
+          <img
+            id="Changebale_image"
+            class="Main_Image"
+            src="https://wallpaperaccess.com/full/3620396.jpg"
+            alt=""
+          />
+          <div class="side_content">
+            <div class="nav_bar">
+              <div class="logo_side">
+                <h1 class="Lgo">amindi</h1>
+              </div>
+              <div class="location_side">
+                <div class="location_inner">
+                  <div class="loc_content">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <div class="loc_text">
+                      <h6 class="curr">Current Location:</h6>
+                      <h6 id="City">Enter City</h6>
+                    </div>
+                    <div class="data" id="date-time"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="search_box">
+              <p class="s_text">The Only Weather Forecast You Need</p>
+              <div class="divider"></div>
+              <input id="Get_city" class="searcher" type="text" />
+            </div>
+          </div>
+        </div>
+
+        <div class="info_side">
+          <div class="navbar">
+            <div class="nav_cont">
+              <a class="Active" href="">Weather</a>
+              <a class="hover" href="">Alert</a>
+              <a class="hover" href="">Map</a>
+              <a class="hover" href="">Profile</a>
+            </div>
+          </div>
+          <div class="today"><h1 class="Today">Today</h1></div>
+
+          <div class="full_info">
+            <div class="content">
+              <div class="left_cont">
+                <h1 id="maindeg" class="Celsius">Enter City</h1>
+                <div class="iconer">
+                  <h3 id="maininfo" class="Weather">Sunny</h3>
+                  <img
+                    id="weathericon"
+                    class="icon"
+                    src="weather-icons/original/animated/snowy-3.svg"
+                    alt=""
+                  />
+                </div>
+                <h3 id="datet" class="dro">24 june 2022</h3>
+              </div>
+              <div class="right_cont">
+                <p id="humid"></p>
+                <p id="press"></p>
+                <p id="feels"></p>
+                <p id="visible"></p>
+              </div>
+            </div>
+          </div>
+          <div class="templates_cont">
+            <div class="daily"><h1 class="daily">Daily</h1></div>
+            <div class="template_box">
+              <div class="template">
+                <h1 id="degree1" class="tempdeeg">32&deg</h1>
+                <h3 id="tempcity1" class="citytemp">Berlin</h3>
+                <h3 id="weat1" class="mainw">Raining</h3>
+              </div>
+              <div class="template">
+                <h1 id="degree" class="tempdeeg">32&deg</h1>
+                <h3 id="tempcity" class="citytemp">Berlin</h3>
+                <h3 id="weat" class="mainw">Raining</h3>
+              </div>
+              <div class="template">
+                <h1 id="degree" class="tempdeeg">32&deg</h1>
+                <h3 id="tempcity" class="citytemp">Berlin</h3>
+                <h3 id="weat" class="mainw">Raining</h3>
+              </div>
+              <div class="template">
+                <h1 id="degree" class="tempdeeg">32&deg</h1>
+                <h3 id="tempcity" class="citytemp">Berlin</h3>
+                <h3 id="weat" class="mainw">Raining</h3>
+              </div>
+              <div class="template">
+                <h1 id="degree" class="tempdeeg">32&deg</h1>
+                <h3 id="tempcity" class="citytemp">Berlin</h3>
+                <h3 id="weat" class="mainw">Raining</h3>
+              </div>
+              <div class="template">
+                <h1 id="degree" class="tempdeeg">32&deg</h1>
+                <h3 id="tempcity" class="citytemp">Berlin</h3>
+                <h3 id="weat" class="mainw">Raining</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="api.js"></script>
+  </body>
+</html>
